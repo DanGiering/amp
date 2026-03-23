@@ -1,6 +1,6 @@
 Meta.DisplayName=The Ship
 Meta.Description=The Ship Dedicated Server
-Meta.Arch=x86_64
+Meta.Arch=i386
 Meta.Author=deeg - Made with AMP Config Generator
 Meta.URL=
 Meta.MinAMPVersion=2.4.6.6
@@ -81,4 +81,4 @@ App.ExecutableLinux=2403/srcds_run
 App.LinuxCommandLineArgs=
 App.Ports=@IncludeJson[the-shipports.json]
 App.UpdateSources=@IncludeJson[the-shipupdates.json]
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
+App.EnvironmentVariables={}
