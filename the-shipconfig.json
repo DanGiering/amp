@@ -1,0 +1,53 @@
+[
+    {
+        "DisplayName": "Default Map",
+        "Category": "Server Settings",
+        "Description": "The map loaded when the server starts.",
+        "Keywords": "default,map",
+        "FieldName": "+map",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "+map",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "ship_tutorial",
+        "Placeholder": "ship_tutorial",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Settings",
+        "Description": "Maximum number of players allowed.",
+        "Keywords": "max,players",
+        "FieldName": "+maxplayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "+maxplayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "16",
+        "Placeholder": "16",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "The public name of the server",
+        "Keywords": "server,name",
+        "FieldName": "+hostname",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "+hostname",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Hoggers Ship | MI USA | 24/7",
+        "Placeholder": "Hoggers Ship | MI USA | 24/7",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]
