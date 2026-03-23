@@ -1,7 +1,7 @@
 [
     {
         "UpdateStageName": "The Ship",
-        "UpdateSourcePlatform": "All",
+        "UpdateSourcePlatform": "Windows",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2403",
         "UpdateSourceArgs": "2400",
